@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CFEFA1D0225DE557002FCF7A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CFEFA1CF225DE557002FCF7A /* AppDelegate.m */; };
+		CFEFA1D3225DE557002FCF7A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFEFA1D2225DE557002FCF7A /* ViewController.m */; };
+		CFEFA1D6225DE557002FCF7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFEFA1D4225DE557002FCF7A /* Main.storyboard */; };
+		CFEFA1D8225DE579002FCF7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFEFA1D7225DE579002FCF7A /* Assets.xcassets */; };
+		CFEFA1DB225DE579002FCF7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFEFA1D9225DE579002FCF7A /* LaunchScreen.storyboard */; };
+		CFEFA1DE225DE579002FCF7A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CFEFA1DD225DE579002FCF7A /* main.m */; };
+		CFEFA1E8225DE57A002FCF7A /* DNSuspensionButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CFEFA1E7225DE57A002FCF7A /* DNSuspensionButtonTests.m */; };
+		CFEFA1F3225DE57A002FCF7A /* DNSuspensionButtonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CFEFA1F2225DE57A002FCF7A /* DNSuspensionButtonUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CFEFA1E4225DE57A002FCF7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFEFA1C3225DE557002FCF7A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFEFA1CA225DE557002FCF7A;
+			remoteInfo = DNSuspensionButton;
+		};
+		CFEFA1EF225DE57A002FCF7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFEFA1C3225DE557002FCF7A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFEFA1CA225DE557002FCF7A;
+			remoteInfo = DNSuspensionButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CFEFA1CB225DE557002FCF7A /* DNSuspensionButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DNSuspensionButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFEFA1CE225DE557002FCF7A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CFEFA1CF225DE557002FCF7A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CFEFA1D1225DE557002FCF7A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CFEFA1D2225DE557002FCF7A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CFEFA1D5225DE557002FCF7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CFEFA1D7225DE579002FCF7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CFEFA1DA225DE579002FCF7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CFEFA1DC225DE579002FCF7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFEFA1DD225DE579002FCF7A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CFEFA1E3225DE57A002FCF7A /* DNSuspensionButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DNSuspensionButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFEFA1E7225DE57A002FCF7A /* DNSuspensionButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DNSuspensionButtonTests.m; sourceTree = "<group>"; };
+		CFEFA1E9225DE57A002FCF7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFEFA1EE225DE57A002FCF7A /* DNSuspensionButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DNSuspensionButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFEFA1F2225DE57A002FCF7A /* DNSuspensionButtonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DNSuspensionButtonUITests.m; sourceTree = "<group>"; };
+		CFEFA1F4225DE57A002FCF7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CFEFA1C8225DE557002FCF7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFEFA1E0225DE57A002FCF7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFEFA1EB225DE57A002FCF7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CFEFA1C2225DE557002FCF7A = {
+			isa = PBXGroup;
+			children = (
+				CFEFA1CD225DE557002FCF7A /* DNSuspensionButton */,
+				CFEFA1E6225DE57A002FCF7A /* DNSuspensionButtonTests */,
+				CFEFA1F1225DE57A002FCF7A /* DNSuspensionButtonUITests */,
+				CFEFA1CC225DE557002FCF7A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CFEFA1CC225DE557002FCF7A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFEFA1CB225DE557002FCF7A /* DNSuspensionButton.app */,
+				CFEFA1E3225DE57A002FCF7A /* DNSuspensionButtonTests.xctest */,
+				CFEFA1EE225DE57A002FCF7A /* DNSuspensionButtonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CFEFA1CD225DE557002FCF7A /* DNSuspensionButton */ = {
+			isa = PBXGroup;
+			children = (
+				CFEFA1CE225DE557002FCF7A /* AppDelegate.h */,
+				CFEFA1CF225DE557002FCF7A /* AppDelegate.m */,
+				CFEFA1D1225DE557002FCF7A /* ViewController.h */,
+				CFEFA1D2225DE557002FCF7A /* ViewController.m */,
+				CFEFA1D4225DE557002FCF7A /* Main.storyboard */,
+				CFEFA1D7225DE579002FCF7A /* Assets.xcassets */,
+				CFEFA1D9225DE579002FCF7A /* LaunchScreen.storyboard */,
+				CFEFA1DC225DE579002FCF7A /* Info.plist */,
+				CFEFA1DD225DE579002FCF7A /* main.m */,
+			);
+			path = DNSuspensionButton;
+			sourceTree = "<group>";
+		};
+		CFEFA1E6225DE57A002FCF7A /* DNSuspensionButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				CFEFA1E7225DE57A002FCF7A /* DNSuspensionButtonTests.m */,
+				CFEFA1E9225DE57A002FCF7A /* Info.plist */,
+			);
+			path = DNSuspensionButtonTests;
+			sourceTree = "<group>";
+		};
+		CFEFA1F1225DE57A002FCF7A /* DNSuspensionButtonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CFEFA1F2225DE57A002FCF7A /* DNSuspensionButtonUITests.m */,
+				CFEFA1F4225DE57A002FCF7A /* Info.plist */,
+			);
+			path = DNSuspensionButtonUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CFEFA1CA225DE557002FCF7A /* DNSuspensionButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFEFA1F7225DE57A002FCF7A /* Build configuration list for PBXNativeTarget "DNSuspensionButton" */;
+			buildPhases = (
+				CFEFA1C7225DE557002FCF7A /* Sources */,
+				CFEFA1C8225DE557002FCF7A /* Frameworks */,
+				CFEFA1C9225DE557002FCF7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DNSuspensionButton;
+			productName = DNSuspensionButton;
+			productReference = CFEFA1CB225DE557002FCF7A /* DNSuspensionButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CFEFA1E2225DE57A002FCF7A /* DNSuspensionButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFEFA1FA225DE57A002FCF7A /* Build configuration list for PBXNativeTarget "DNSuspensionButtonTests" */;
+			buildPhases = (
+				CFEFA1DF225DE57A002FCF7A /* Sources */,
+				CFEFA1E0225DE57A002FCF7A /* Frameworks */,
+				CFEFA1E1225DE57A002FCF7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFEFA1E5225DE57A002FCF7A /* PBXTargetDependency */,
+			);
+			name = DNSuspensionButtonTests;
+			productName = DNSuspensionButtonTests;
+			productReference = CFEFA1E3225DE57A002FCF7A /* DNSuspensionButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CFEFA1ED225DE57A002FCF7A /* DNSuspensionButtonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFEFA1FD225DE57A002FCF7A /* Build configuration list for PBXNativeTarget "DNSuspensionButtonUITests" */;
+			buildPhases = (
+				CFEFA1EA225DE57A002FCF7A /* Sources */,
+				CFEFA1EB225DE57A002FCF7A /* Frameworks */,
+				CFEFA1EC225DE57A002FCF7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFEFA1F0225DE57A002FCF7A /* PBXTargetDependency */,
+			);
+			name = DNSuspensionButtonUITests;
+			productName = DNSuspensionButtonUITests;
+			productReference = CFEFA1EE225DE57A002FCF7A /* DNSuspensionButtonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CFEFA1C3225DE557002FCF7A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = zjs;
+				TargetAttributes = {
+					CFEFA1CA225DE557002FCF7A = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					CFEFA1E2225DE57A002FCF7A = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = CFEFA1CA225DE557002FCF7A;
+					};
+					CFEFA1ED225DE57A002FCF7A = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = CFEFA1CA225DE557002FCF7A;
+					};
+				};
+			};
+			buildConfigurationList = CFEFA1C6225DE557002FCF7A /* Build configuration list for PBXProject "DNSuspensionButton" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CFEFA1C2225DE557002FCF7A;
+			productRefGroup = CFEFA1CC225DE557002FCF7A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CFEFA1CA225DE557002FCF7A /* DNSuspensionButton */,
+				CFEFA1E2225DE57A002FCF7A /* DNSuspensionButtonTests */,
+				CFEFA1ED225DE57A002FCF7A /* DNSuspensionButtonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CFEFA1C9225DE557002FCF7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFEFA1DB225DE579002FCF7A /* LaunchScreen.storyboard in Resources */,
+				CFEFA1D8225DE579002FCF7A /* Assets.xcassets in Resources */,
+				CFEFA1D6225DE557002FCF7A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFEFA1E1225DE57A002FCF7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFEFA1EC225DE57A002FCF7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CFEFA1C7225DE557002FCF7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFEFA1D3225DE557002FCF7A /* ViewController.m in Sources */,
+				CFEFA1DE225DE579002FCF7A /* main.m in Sources */,
+				CFEFA1D0225DE557002FCF7A /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFEFA1DF225DE57A002FCF7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFEFA1E8225DE57A002FCF7A /* DNSuspensionButtonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFEFA1EA225DE57A002FCF7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFEFA1F3225DE57A002FCF7A /* DNSuspensionButtonUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CFEFA1E5225DE57A002FCF7A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFEFA1CA225DE557002FCF7A /* DNSuspensionButton */;
+			targetProxy = CFEFA1E4225DE57A002FCF7A /* PBXContainerItemProxy */;
+		};
+		CFEFA1F0225DE57A002FCF7A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFEFA1CA225DE557002FCF7A /* DNSuspensionButton */;
+			targetProxy = CFEFA1EF225DE57A002FCF7A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CFEFA1D4225DE557002FCF7A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFEFA1D5225DE557002FCF7A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CFEFA1D9225DE579002FCF7A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFEFA1DA225DE579002FCF7A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CFEFA1F5225DE57A002FCF7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CFEFA1F6225DE57A002FCF7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CFEFA1F8225DE57A002FCF7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DNSuspensionButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zjs.dn.DNSuspensionButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CFEFA1F9225DE57A002FCF7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DNSuspensionButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zjs.dn.DNSuspensionButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CFEFA1FB225DE57A002FCF7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DNSuspensionButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zjs.dn.DNSuspensionButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DNSuspensionButton.app/DNSuspensionButton";
+			};
+			name = Debug;
+		};
+		CFEFA1FC225DE57A002FCF7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DNSuspensionButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zjs.dn.DNSuspensionButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DNSuspensionButton.app/DNSuspensionButton";
+			};
+			name = Release;
+		};
+		CFEFA1FE225DE57A002FCF7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DNSuspensionButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zjs.dn.DNSuspensionButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DNSuspensionButton;
+			};
+			name = Debug;
+		};
+		CFEFA1FF225DE57A002FCF7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DNSuspensionButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zjs.dn.DNSuspensionButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DNSuspensionButton;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CFEFA1C6225DE557002FCF7A /* Build configuration list for PBXProject "DNSuspensionButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFEFA1F5225DE57A002FCF7A /* Debug */,
+				CFEFA1F6225DE57A002FCF7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFEFA1F7225DE57A002FCF7A /* Build configuration list for PBXNativeTarget "DNSuspensionButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFEFA1F8225DE57A002FCF7A /* Debug */,
+				CFEFA1F9225DE57A002FCF7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFEFA1FA225DE57A002FCF7A /* Build configuration list for PBXNativeTarget "DNSuspensionButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFEFA1FB225DE57A002FCF7A /* Debug */,
+				CFEFA1FC225DE57A002FCF7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFEFA1FD225DE57A002FCF7A /* Build configuration list for PBXNativeTarget "DNSuspensionButtonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFEFA1FE225DE57A002FCF7A /* Debug */,
+				CFEFA1FF225DE57A002FCF7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CFEFA1C3225DE557002FCF7A /* Project object */;
+}
